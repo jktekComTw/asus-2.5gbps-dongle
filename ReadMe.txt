@@ -1,3 +1,12 @@
+1. clone Linus's linux source code from github and checkout branch of 6.8.12
+2. put in the same level folder of the folder of this repo.
+2. make Makefile&insmod the output ko file for PVE.
+3. then done.
+
+
+
+==================below is old readme===========================================
+
 - If you want to support S5 WOL, you have to find
 
 	EXTRA_CFLAGS += -DRTL8152_S5_WOL

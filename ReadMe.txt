@@ -1,7 +1,8 @@
 1. clone Linus's linux source code from github and checkout branch of 6.8.12
 2. put in the same level folder of the folder of this repo.
-2. make Makefile&insmod the output ko file for PVE.
-3. then done.
+3. make Makefile&insmod the output ko file for PVE.
+4. load the rule into /etc/udev.
+5. then plug in the dongle into server of pve of 6.8.12 reversion.
 
 
 

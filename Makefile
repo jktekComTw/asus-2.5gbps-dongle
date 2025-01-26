@@ -12,7 +12,7 @@ ifneq ($(KERNELRELEASE),)
 		EXTRA_CFLAGS += -DCONFIG_CTAP_SHORT_OFF
 	endif
 else
-	# KERNELDIR ?= /root/linux
+	# KERNELDIR ?= $(pwd)/../linux
 	KERNELDIR ?= /usr/src/linux-headers-6.8.12-5-pve
 	PWD :=$(shell pwd)
 	TARGET_PATH := kernel/drivers/net/usb
